@@ -1,4 +1,4 @@
-# crewai_marketing_analyst
+# Meetup watsonx.ai + CrewAI: Marketing Analyst!
 
 ### Overview
 
@@ -21,7 +21,3 @@ pip install -r requirements.txt
 ```python
  streamlit run main.py
 ```
-
-
-# meetup_watsonx_crewai_marketing_analyst
-# meetup_watsonx_crewai_marketing_analyst

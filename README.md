@@ -16,8 +16,13 @@ Make sure to install the requirements
 pip install -r requirements.txt
 ```
 
-### Run the streamlit app : 
+### Run the streamlit app: 
 
 ```python
  streamlit run main.py
 ```
+
+
+
+[Link to the recorded video (in French)](https://youtu.be/GbjIuwgBhwI)
+

@@ -204,11 +204,6 @@ class StreamToExpander:
 def run_crewai_app():
     st.title("Watsonx AI Agent for product potentials")
     with st.expander("About the Team:"):
-        st.subheader("Diagram")
-        left_co, cent_co,last_co = st.columns(3)
-        with cent_co:
-            st.image("my_img.png")
-
         st.subheader("Market Research Analyst")
         st.text("""       
         Role = Market Research Analyst

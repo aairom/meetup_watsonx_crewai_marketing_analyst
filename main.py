@@ -20,8 +20,8 @@ load_dotenv()
 #print(os.environ["WATSONX_URL"])
 #print(os.environ["WATSONX_PROJECT_ID"])
 WATSONX_URL="https://us-south.ml.cloud.ibm.com/"
-WATSONX_PROJECT_ID= "PROJECTID"
-WATSONX_APIKEY = "APIKEY"
+WATSONX_PROJECT_ID= "87277e89-49d7-4cc4-af73-dc550379dc2c"
+WATSONX_APIKEY = "SSXqAKDD6juh63GX8n4b43P2yJ_A7lYCPFa1BVwbyeC6"
 #WATSONX_LLAMA3_MODEL_ID = "watsonx/mistralai/mistral-large"
 WATSONX_LLAMA3_MODEL_ID="watsonx/meta-llama/llama-3-2-3b-instruct"
 
@@ -204,6 +204,11 @@ class StreamToExpander:
 def run_crewai_app():
     st.title("Watsonx AI Agent for product potentials")
     with st.expander("About the Team:"):
+        st.subheader("Diagram")
+        left_co, cent_co,last_co = st.columns(3)
+        with cent_co:
+            st.image("my_img.png")
+
         st.subheader("Market Research Analyst")
         st.text("""       
         Role = Market Research Analyst
